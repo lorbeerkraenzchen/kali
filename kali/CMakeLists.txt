@@ -3,7 +3,7 @@
 #
 
 # Add source to this project's executable.
-add_executable (kali "kali.cpp" "kali.h")
+add_executable (kali "main.cpp"  "memory/memory.h")
 
 if (CMAKE_VERSION VERSION_GREATER 3.12)
   set_property(TARGET kali PROPERTY CXX_STANDARD 20)
